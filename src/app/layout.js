@@ -1,6 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Layout from "@/components/layouts/main";
+import Layout from "@/components/layout";
 import Script from "next/script";
 
 const poppins = Poppins({

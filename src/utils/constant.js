@@ -10,5 +10,3 @@ export const PAGE_ROUTES = [
     name: "about",
   },
 ];
-
-export const IS_MAINTENANCE = true;

@@ -129,3 +129,29 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 }
+
+@keyframes rotateZoom {
+  from {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+  1% {
+    opacity: 0;
+    transform: rotate(5deg) scale(0.1, 0.1);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(5deg) scale(1, 1);
+  }
+}
+
+@keyframes animate {
+  from {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}

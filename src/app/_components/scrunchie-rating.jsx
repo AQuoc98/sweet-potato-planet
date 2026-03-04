@@ -29,7 +29,7 @@ const ScrunchieRating = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-4 md:max-w-6xl mb-8">
+      <div className="container mx-auto px-4 max-w-6xl mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <RatingColumn title="Most liked scrunchies" items={mostLiked} />
           <RatingColumn title="Most sold scrunchies" items={mostSold} />

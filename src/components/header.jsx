@@ -58,7 +58,7 @@ const Header = () => {
       </section>
       {/* Navigation */}
       <nav className="bg-white py-4">
-        <div className="container mx-auto md:max-w-6xl px-4">
+        <div className="container mx-auto max-w-6xl px-4">
           <div className="relative flex flex-nowrap items-center justify-between">
             {/* Logo */}
             <div>

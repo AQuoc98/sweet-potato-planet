@@ -5,9 +5,9 @@ const ScrunchieList = () => {
   return (
     <section className="py-20">
       {Object.entries(scrunchiesData).map(([year, scrunchies]) => (
-        <div key={year} className="container mx-auto px-4 md:max-w-6xl">
+        <div key={year} className="container mx-auto px-4 max-w-6xl">
           <div className="mb-8">
-            <h2 className="relative pt-4 font-bold text-4xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-12 before:h-2 before:bg-pink-600">
+            <h2 className="relative pt-4 font-bold text-3xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-12 before:h-2 before:bg-pink-600">
               {year}
             </h2>
           </div>

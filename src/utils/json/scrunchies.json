@@ -1,0 +1,104 @@
+{
+  "2020": [
+    {
+      "name": "Lemon - Yellow",
+      "image": "/2020/lemon.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Lemon - Pink",
+      "image": "/2020/lemon2jpg.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Lemon - Yellowish pink",
+      "image": "/2020/lemon3.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Pluto",
+      "image": "/2020/Pluto.jpg",
+      "price": "35.000đ"
+    },
+    {
+      "name": "Pinky Glitter",
+      "image": "/2020/Pinky Glitter.jpg",
+      "price": "35.000đ"
+    },
+    {
+      "name": "Blue Petals",
+      "image": "/2020/Blue Petals.jpg",
+      "price": "35.000đ"
+    },
+    {
+      "name": "Satin Charmeuse - Caramel",
+      "image": "/2020/Satin charmeuse caramel.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Satin Charmeuse - Green",
+      "image": "/2020/Satin charmeuse green.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Satin Charmeuse - Navy blue",
+      "image": "/2020/Satin charmeuse navyblue.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Daisy - Pink",
+      "image": "/2020/daisy pink.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Daisy - White",
+      "image": "/2020/daisy white.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Daisy - Purple",
+      "image": "/2020/daisy purple.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Vichy - Bleu",
+      "image": "/2020/vichy blue.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Vichy - Vert",
+      "image": "/2020/vichy vert.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Vichy - Violet",
+      "image": "/2020/vichy violet.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Little Bow Tie - Blue",
+      "image": "/2020/little blue.jpg",
+      "price": "25.000đ"
+    },
+    {
+      "name": "Little Bow Tie - Pink",
+      "image": "/2020/little pink.jpg",
+      "price": "25.000đ"
+    },
+    {
+      "name": "Little Bow Tie - White",
+      "image": "/2020/little white.jpg",
+      "price": "25.000đ"
+    },
+    {
+      "name": "Blue Leaf",
+      "image": "/2020/blue leaf 20.jpg",
+      "price": "20.000đ"
+    },
+    {
+      "name": "Blue Leaf",
+      "image": "/2020/blue leaf 25.jpg",
+      "price": "25.000đ"
+    }
+  ]
+}

@@ -69,6 +69,7 @@ const Header = () => {
                   alt="Sweet Potato Planet"
                   width={64}
                   height={64}
+                  priority
                 />
               </Link>
             </div>

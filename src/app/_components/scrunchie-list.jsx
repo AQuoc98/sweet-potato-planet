@@ -1,7 +1,7 @@
 import scrunchiesData from "@/utils/json/scrunchies.json";
 import ScrunchieCard from "./scrunchie-card";
 
-const ScrunchiesList = () => {
+const ScrunchieList = () => {
   return (
     <section className="py-20">
       {Object.entries(scrunchiesData).map(([year, scrunchies]) => (
@@ -27,4 +27,4 @@ const ScrunchiesList = () => {
   );
 };
 
-export default ScrunchiesList;
+export default ScrunchieList;

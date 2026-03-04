@@ -18,8 +18,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <head suppressHydrationWarning>
         <Script src="https://kit.fontawesome.com/4a9d18e4fd.js" />
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        />
       </head>
       <body className={`${poppins.variable} antialiased`}>
         <Layout>{children}</Layout>

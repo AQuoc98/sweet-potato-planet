@@ -12,7 +12,12 @@ export default function About() {
       <section className="py-15 overflow-x-hidden">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="flex flex-col gap-8">
+            <div
+              className="flex flex-col gap-8"
+              data-aos="fade-right"
+              data-aos-easing="linear"
+              data-aos-delay="0"
+            >
               <h2 className="text-3xl md:text-5xl font-semibold">
                 Sweet Potato Planet
               </h2>
@@ -67,6 +72,9 @@ export default function About() {
               width={600}
               height={600}
               className="w-full align-middle"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-delay="150"
             />
           </div>
         </div>

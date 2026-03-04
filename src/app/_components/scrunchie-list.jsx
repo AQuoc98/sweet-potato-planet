@@ -18,6 +18,7 @@ const ScrunchieList = () => {
                 name={scrunchie.name}
                 image={scrunchie.image}
                 price={scrunchie.price}
+                index={index}
               />
             ))}
           </div>

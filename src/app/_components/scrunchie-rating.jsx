@@ -31,9 +31,22 @@ const ScrunchieRating = () => {
     <section>
       <div className="container mx-auto px-4 max-w-6xl mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <RatingColumn title="Most liked scrunchies" items={mostLiked} />
-          <RatingColumn title="Most sold scrunchies" items={mostSold} />
-          <div className="shadow-lg shadow-black/15 h-125 relative overflow-hidden">
+          <RatingColumn
+            title="Most liked scrunchies"
+            items={mostLiked}
+            aosProps={{ "data-aos-delay": "0" }}
+          />
+          <RatingColumn
+            title="Most sold scrunchies"
+            items={mostSold}
+            aosProps={{ "data-aos-delay": "150" }}
+          />
+          <div
+            className="shadow-lg shadow-black/15 h-125 relative overflow-hidden"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="300"
+          >
             <Image
               src="/Feedback.jpg"
               alt="Customer feedback"

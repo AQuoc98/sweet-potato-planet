@@ -1,8 +1,13 @@
 import Image from "next/image";
 
-const ScrunchieCard = ({ name, image, price }) => {
+const ScrunchieCard = ({ name, image, price, index = 0 }) => {
   return (
-    <div className="relative group">
+    <div
+      className="relative group"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-delay={index === 0 ? "100" : "200"}
+    >
       <Image
         src={image}
         alt={name}

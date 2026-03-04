@@ -22,9 +22,9 @@ const RatingItem = ({ name, image, price }) => {
   );
 };
 
-const RatingColumn = ({ title, items }) => {
+const RatingColumn = ({ title, items, aosProps }) => {
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-easing="ease-in-out" {...aosProps}>
       <h2 className="relative pt-4 font-bold text-3xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-12 before:h-2 before:bg-pink-600">
         {title}
       </h2>
